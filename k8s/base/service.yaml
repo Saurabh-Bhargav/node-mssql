@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nodejs-service
-sepc:
+spec:
   type: NodePort
   selector:
     app: nodejs-app
